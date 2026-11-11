@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "yunxi"
+version = "0.1.0"
+description = "Intent-routed plant identification and disease analysis API using Qwen2.5-VL"
+readme = "README.md"
+# Keep the supported interpreter range aligned with the checked local baseline.
+requires-python = ">=3.13,<3.14"
+dynamic = ["dependencies"]
+
+[tool.setuptools]
+# Explicit modules avoid treating the large model directories as packages.
+py-modules = ["api_service", "model_loader"]
+include-package-data = false
+
+[tool.setuptools.dynamic]
+dependencies = { file = ["requirements.txt"] }

@@ -1,0 +1,16 @@
+# Runtime dependencies; pyproject.toml reads this file as the single source.
+# Install from the project root: python -m pip install -r requirements.txt
+# This is not a complete lockfile: transitive dependencies are not pinned.
+
+# HTTP API, multipart uploads, and environment configuration.
+fastapi>=0.115.12,<1.0
+uvicorn>=0.34.3,<1.0
+python-multipart>=0.0.20,<0.1
+python-dotenv>=1.2.2,<2.0
+
+# Image decoding and Qwen2.5-VL inference.
+# Keep torch and torchvision paired; both imports were checked on Python 3.13.
+Pillow>=12.3.0,<13.0
+torch==2.13.0
+torchvision==0.28.0
+transformers==5.15.0
