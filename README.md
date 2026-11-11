@@ -152,4 +152,3 @@ Yunxi_Intelligent_Agriculture/
 <sub>YunXi · Sense. Understand. Act.</sub>
 
 </div>
->>>>>>> cc602fb (first commit)
