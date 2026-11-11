@@ -8,8 +8,6 @@
 
 HarmonyOS application × Custom agricultural sensors × Multimodal AI
 
-<img src="docs/assets/technology.svg" width="652" alt="Python 3.13 · FastAPI · Qwen2.5-VL · HarmonyOS · MIT" />
-
 [简体中文](README.md) · **English**
 
 [Overview](#overview) · [Showcase](#showcase) · [Architecture](#architecture) · [Quick start](#quickstart) · [Documentation](#documentation)
